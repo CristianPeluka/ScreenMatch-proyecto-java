@@ -79,5 +79,11 @@ Y esto se hace con el fin de poder almacenar datos y poder medirlas sacando un p
         
         int notas = 0;
         double MediaDeEvaluacionUsuario =0;
-<h2>Video de demostracion</h2>
+<h3>Nota importante</h3>
+<p>Se ingreso 2 películas en la aplicación, sin embargo solo se esta mostrando el proceso de ingreso de datos de una película, para el procedimiento de la segunda película, seria los mismo pasos que hemos empleado.</p>
+<h2>Video demostracion</h2>
+
+
+https://github.com/CristianPeluka/ScreenMatch-proyecto-java/assets/154385568/1ab5a12e-1e7c-4d30-a302-1ce0a2752ca2
+
 
