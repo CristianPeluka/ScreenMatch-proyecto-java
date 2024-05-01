@@ -57,11 +57,11 @@ Y esto se hace con el fin de poder almacenar datos y poder medirlas sacando un p
         }
 <h3>4. Utilizamos los ciclos de repeticion (ciclo while)</h3>
 
-         while (notas1 < 3) {
+         while (notas < 3) {
             Scanner teclado = new Scanner(System.in);
             System.out.println("Que calificacion le das a la pelicula Matrix");
             double calificacion = teclado.nextDouble();
-            MediaDeEvaluacionUsuario = MediaDeEvaluacionUsuario1 + calificacion;
+            MediaDeEvaluacionUsuario = MediaDeEvaluacionUsuario + calificacion;
             notas++;
         }
         System.out.println("La calificacion media que dan los usuarios a la pelicula Matrix es: " + MediaDeEvaluacionUsuario / 3);
@@ -72,12 +72,12 @@ Y esto se hace con el fin de poder almacenar datos y poder medirlas sacando un p
   <li>Luego se creo una variable para poder guardar el objeto Scanner que nos proporciono la persona por el teclado.</li>
   <li>Se crea otra segunda variable para poder almacenar las notas que la persona esta colocando.</li>
   <li>Se crea una tercera variable para calcular el promedio de las calificaciones despues de haber pasado los 3 ciclos que indicamos en la condición.</li>
-  <li>Finalmente se manda a imprimir la mediaDeEvaluacionUsuario1 que es la suma total de las 3 calificaciones y lo dividimos entre 3 para calcular el promedio final de la pelicula, ojo que este calculo lo hacemos afuera del ciclo while
+  <li>Finalmente se manda a imprimir la mediaDeEvaluacionUsuario que es la suma total de las 3 calificaciones y lo dividimos entre 3 para calcular el promedio final de la pelicula, ojo que este calculo lo hacemos afuera del ciclo while
   ya que sino estariamos en un bucle infinito calculando el promedio por cada calificacion que ingrese el usuario.</li>
 </ul>
 <h3>Declaración e inicialización de las variables usadas en el ciclo while</h3>
         
-        int notas1 = 0;
-        double MediaDeEvaluacionUsuario1 =0;
+        int notas = 0;
+        double MediaDeEvaluacionUsuario =0;
 <h2>Video de demostracion</h2>
 
